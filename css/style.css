@@ -1,0 +1,71 @@
+body {
+	font-size: 80%;
+	font-family: "Proxima Nova";
+	letter-spacing: 0.15em;
+	background-color: #efefef;
+}
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 4px double #000;
+	background-color: #fff;
+}
+#logo img {
+	width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+nav {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+li {
+	display: inline;
+	margin: 0px 3px;
+}
+.projects {
+	display: inline-block;
+    margin: 20px 162px;
+}
+figure {
+	display: block;
+	width: 202px;
+	height: 170px;
+	background-color: #e7e3d8;
+	margin: 0px;
+	padding: 9px;
+	text-align: left;
+}
+figure img {
+	width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+figcaption {
+	/*padding-left: 20px;*/
+	text-align: center;
+}
+p {
+	text-align: center;
+	width: 600px;
+	margin: 20px auto;
+	font-weight: normal;
+}
+a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover {
+	color: #ccc333;
+	background-color: #fff;
+}
+section {
+	display: none;
+}
