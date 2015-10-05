@@ -5,7 +5,7 @@ body {
 	background-color: #efefef;
 }
 #page {
-	max-width: 940px;
+	max-width: 1000px;
 	min-width: 720px;
 	margin: 10px auto;
 	padding: 20px;
@@ -31,10 +31,10 @@ li {
 }
 .projects {
 	display: inline-block;
-    margin: 20px 162px;
+    margin: 28px 162px;
 }
 figure {
-	display: block;
+	display: inline-block;
 	width: 202px;
 	height: 170px;
 	background-color: #e7e3d8;
@@ -62,10 +62,12 @@ a {
 	text-transform: uppercase;
 	text-decoration: none;
 }
+
+.active,
 a:hover {
 	color: #ccc333;
 	background-color: #fff;
 }
-section {
+/*section {
 	display: none;
-}
+}*/

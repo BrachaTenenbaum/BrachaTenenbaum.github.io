@@ -5,32 +5,45 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 <body>
 	<div id="page">
 		<div id="logo">
 			<img src="images/logo.png" alt="Bracha Tenenbaum">
 		</div>
 		<nav id="navigation">
-			<li><a href="#" class="on">Home</a></li>
+			<li><a href="#home">Home</a></li>
 			<li><a href="#projects">Projects</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</nav>
-		<div class="projects">
-			<figure><a href="http://brachatenenbaum.github.io/shopping-list/"><img src="images/shopping-list.jpg"></a>
-			<figcaption>Shopping List App</figcaption>
-			</figure>
-			<!-- <img src="images/BRACHA1.jpg" alt="Bracha Tenenbaum" style="width: 200px;" "height:200px;">
-			<img src="images/BRACHA1.jpg" alt="Bracha Tenenbaum" style="width:200px;" "height:200px;"> -->
-		</div>
-		<p>
-			I'm a freelance Frontend web developer with experience in HTML, CSS, JavaScript, JQuery, Ajax, and APIs. 
-		</p>
-		<section id="projects">
-			<h1>My work</h1>
-			<!-- <a href="http://brachatenenbaum.github.io/shopping-list/"><img src="images/shopping-list.png"></a> -->
+
+		<section id="home">
+			<div class="projects">
+				<figure><a href="http://brachatenenbaum.github.io/shopping-list/"><img src="images/shopping-list.jpg"></a>
+				<figcaption>Shopping List App</figcaption>
+				</figure>
+				<figure><a href="http://brachatenenbaum.github.io/hot-or-cold/"><img src="images/shopping-list.jpg"></a>
+				<figcaption>Shopping List App</figcaption>
+				</figure>
+				<figure><a href="http://brachatenenbaum.github.io/shopping-list/"><img src="images/shopping-list.jpg"></a>
+				<figcaption>Shopping List App</figcaption>
+				</figure>
+	 
+			</div>
+			<p>
+				I'm a freelance Frontend web developer with experience in HTML, CSS, JavaScript, JQuery, Ajax, and APIs. 
+			</p>
 		</section>
+
+		<section id="projects" hidden>
+			<h1>My work</h1>
+		</section>
+		<section id="about" hidden>
+			<p>Recenlty moved from NYC where I grew up to St Ignatius, MT- population of 850!</p>
+		</section>
+		<section id="contact" hidden>
+			<p>Email</p>
+		</section> 
 	</div>
 </body>
-</html>
