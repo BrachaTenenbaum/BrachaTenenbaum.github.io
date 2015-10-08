@@ -1,8 +1,13 @@
+/*Styling for Home page and top bar starts here*/
+html {
+	height: 100%;
+}
 body {
 	font-size: 80%;
 	font-family: "Proxima Nova";
 	letter-spacing: 0.15em;
 	background-color: #efefef;
+	height: 100%;
 }
 #page {
 	max-width: 1000px;
@@ -11,6 +16,7 @@ body {
 	padding: 20px;
 	border: 4px double #000;
 	background-color: #fff;
+	min-height: 90%
 }
 #logo img {
 	width: 400px;
@@ -18,7 +24,7 @@ body {
     display: block;
 }
 nav {
-	width: 570px;
+	width: 635px;
 	padding: 15px;
 	margin: 0px auto;
 	border-top: 2px solid #000;
@@ -27,20 +33,24 @@ nav {
 }
 li {
 	display: inline;
-	margin: 0px 3px;
+	margin: 0px 35px;
 }
 .projects {
 	display: inline-block;
     margin: 28px 162px;
+}
+figure:hover {
+    transform: scale(1.1);
 }
 figure {
 	display: inline-block;
 	width: 202px;
 	height: 170px;
 	background-color: #e7e3d8;
-	margin: 0px;
+	margin: 0px;	
 	padding: 9px;
 	text-align: left;
+	transition: .3s transform ease;
 }
 figure img {
 	width: 200px;
@@ -66,8 +76,34 @@ a {
 .active,
 a:hover {
 	color: #ccc333;
-	background-color: #fff;
 }
-/*section {
-	display: none;
-}*/
+
+/*Styling for Projects page starts here*/
+.wrapper {
+	width: 720px;
+	margin: 0px auto;
+	text-align: center;
+}
+.header {
+	margin: 40px 0px 20px 0px;
+}
+.entry {
+	width: 220px;
+	height: 198px;
+	display: inline-block;
+	margin: 4px 2px;
+}
+
+.enlarge:on {
+	transform:scale(2,2);
+	transform-origin:0 0;
+}
+#contact p {
+	font-size: 18px;
+}
+ 
+#contact a {
+	text-transform: lowercase;
+	color: blue;
+	font-size: 18px;
+}

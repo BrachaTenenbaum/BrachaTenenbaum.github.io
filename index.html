@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<link href="lightbox2/dist/css/lightbox.css" rel="stylesheet">
 <body>
 	<div id="page">
 		<div id="logo">
@@ -29,7 +28,6 @@
 				<figure><a href="http://brachatenenbaum.github.io/quiz-app/"><img src="images/quiz-app.jpg"></a>
 				<figcaption>History Quiz App</figcaption>
 				</figure>
-	 
 			</div>
 			<p>
 				I'm a freelance Frontend web developer with experience in HTML, CSS, JavaScript, JQuery, Ajax, and APIs. 
@@ -37,18 +35,85 @@
 		</section>
 
 		<section id="projects" hidden>
-			<h1>My work</h1>
+			<div class="wrapper">
+				<div class="header">
+					<!-- <h1>Projects</h1> -->
+					<p>Here is a selection of my most recent projects.</p>
+				</div>
+
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/quiz-app/"><img src="images/quiz-app.jpg"></a>
+					<figcaption>History Quiz App</figcaption>
+					</figure>
+				</div>
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/quiz-app/"><img src="images/quiz-app.jpg"></a>
+					<figcaption>History Quiz App</figcaption>
+					</figure>
+				</div>
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/hot-or-cold/"><img src="images/HotorCold.png"></a>
+					<figcaption>Hot or Cold Game App</figcaption>
+					</figure>
+				</div>
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/shopping-list/"><img src="images/shopping-list.jpg"></a>
+					<figcaption>Shopping List App</figcaption>
+					</figure>
+				</div>
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/quiz-app/"><img src="images/quiz-app.jpg"></a>
+					<figcaption>History Quiz App</figcaption>
+					</figure>
+				</div>
+				<div class="entry">
+					<figure><a href="http://brachatenenbaum.github.io/quiz-app/"><img src="images/quiz-app.jpg"></a>
+					<figcaption>History Quiz App</figcaption>
+					</figure>
+				</div>
+			</div>
 		</section>
 
 		<section id="about" hidden>
-			<p>Recenlty moved from NYC where I grew up to St Ignatius, MT- population of 850!</p>
-			<p>I spend a lot of my time hiking, throwing clay (not literally but on a wheel), and reading. Enjoy historical fiction and anything related to education reform, business and computer programming.</p>
+			<p>About four months ago, my husband and I moved from our tiny studio apartment in Brooklyn to St Ignatius, MT- population of 850! Here are a few pictures from the area.</p>
+
+			<div class="wrapper"> 
+		      <figure><a class="figure" href="images/frontyard.jpg" data-lightbox="example-2"><img class="example-image" src="images/frontyard.jpg" alt="image-1"/></a>
+		      <figcaption>View from the Bison Range</figcaption>
+		      </figure> 
+		      <figure><a class="figure" href="images/neighbors.jpg" data-lightbox="example-2"><img class="example-image" src="images/neighbors.jpg" alt="image-1"/></a>
+		      <figcaption>Friends at the Bison Range</figcaption>
+		      </figure> 
+		      <figure><a class="figure" href="images/friends.jpg" data-lightbox="example-2"><img class="example-image" src="images/friends.jpg" alt="image-1"/></a>
+		      <figcaption>Other friends</figcaption>
+		      </figure> 
+		      <figure><a class="figure" href="images/backyard.jpg" data-lightbox="example-2"><img class="example-image" src="images/backyard.jpg" alt="image-1"/></a>
+		      <figcaption>View from our backyard</figcaption>
+		      </figure>
+		      <figure><a class="figure" href="images/flatheadlake.jpg" data-lightbox="example-2"><img class="example-image" src="images/flatheadlake.jpg" alt="image-1"/></a>
+		      <figcaption>Flathead Lake</figcaption>
+		      </figure>
+		      <figure><a class="figure" href="images/mission.jpg" data-lightbox="example-2"><img class="example-image" src="images/mission.jpg" alt="image-1"/></a>
+		      <figcaption>Mission Resevoir</figcaption>
+		      </figure>
+			</div>
 		</section>
 
 		<section id="contact" hidden>
-			<p>Don't hesitate to reach out!</p>
-			<a href="mailto:brachabrothschild@gmail.com" style="border: 1px solid red; padding: 5px;">Email Bracha Tenenbaum</a>
+			<ul>
+				<li><p>Email: <a href="mailto:brachawebdev@gmail.com">Brachabrothschild@gmail.com</a></p>
+				</li>
+				<li>
+				<p>LinkedIn: <a href="https://www.linkedin.com/in/bracharothschild">https://www.linkedin.com/in/bracharothschild</a></p>
+				<li>
+				<p>Github: <a href="https://github.com/BrachaTenenbaum">https://github.com/BrachaTenenbaum</a></p>
+				</li>
+			</ul>
 		</section> 
+		</div>
 	</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="lightbox2/dist/js/lightbox.js"></script>
 </body>
 </html>
