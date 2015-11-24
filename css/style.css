@@ -24,7 +24,7 @@ body {
     display: block;
 }
 nav {
-	width: 635px;
+	width: 735px;
 	padding: 15px;
 	margin: 0px auto;
 	border-top: 2px solid #000;
@@ -106,4 +106,8 @@ a:hover {
 	text-transform: lowercase;
 	color: blue;
 	font-size: 18px;
+}
+
+#blog h1 {
+	text-align: center;
 }
