@@ -111,3 +111,13 @@ a:hover {
 #blog h1 {
 	text-align: center;
 }
+
+#blog h3 {
+	text-align: center;
+}
+
+#blog a {
+ text-decoration: underline;
+ color: blue;
+ text-transform: lowercase;
+}
